@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaveShaderMat
-  m_Shader: {fileID: -6465566751694194690, guid: f1f6305ff69ba97439f1aea0dcabda32,
+  m_Name: WaveShaderWindWakerMat
+  m_Shader: {fileID: -6465566751694194690, guid: ae9370d1979101a4b9cead4459188fbf,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -44,24 +44,43 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4ABAC04D_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 8263b6f6d12e2d5468342f5dd1866c31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7585B8AC_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 8263b6f6d12e2d5468342f5dd1866c31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_E372759E_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 8263b6f6d12e2d5468342f5dd1866c31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaClip: 0
-    - _Amplitude: 0.31
+    - _Amplitude: 0.47
+    - _Amplitude1: 2.27
+    - _Amplitude2: 3.3
+    - _AmplitudeX: 1
+    - _AmplitudeXZ: 1
+    - _AmplitudeZ: 1
     - _Blend: 0
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 0
     - _EnvironmentReflections: 1
+    - _Frequency: 0.36
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GradientStrength: 3.17
+    - _GradientStrength: 9.14
     - _Metallic: 0
+    - _MinimumRange: -25.26
     - _OcclusionStrength: 1
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -77,8 +96,8 @@ Material:
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _maxHeightColor: {r: 0.31007475, g: 0.46584013, b: 0.9811321, a: 1}
-    - _minHeightColor: {r: 0, g: 0.21176481, b: 1, a: 1}
+    - _maxHeightColor: {r: 0.35857958, g: 0.35857958, b: 0.9622642, a: 1}
+    - _minHeightColor: {r: 0.08962262, g: 0.08962262, b: 1, a: 1}
 --- !u!114 &7102700979487445228
 MonoBehaviour:
   m_ObjectHideFlags: 11
