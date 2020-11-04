@@ -62,7 +62,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaClip: 0
-    - _Amplitude: 0.47
+    - _Amplitude: 1.6
     - _Amplitude1: 2.27
     - _Amplitude2: 3.3
     - _AmplitudeX: 1
@@ -74,7 +74,7 @@ Material:
     - _Cutoff: 0.5
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _Frequency: 0.36
+    - _Frequency: 0.83
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
